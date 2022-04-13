@@ -10,7 +10,7 @@ SECCION 1:  HEADER
 
 header{
 	position: relative;
-	background-color: #545959;
+	background-color: #4A2932;
 	margin-left: 20px;
 	margin-top: 50px;
 	width:360px;
@@ -38,7 +38,6 @@ header{
 
 #logo{
 	position: absolute;
-	background-color: grey;
 	height: 40px;
 	width: 40px;
 	right: 8px;
@@ -48,6 +47,7 @@ header{
 	text-align: center;
 	color: #FFFFFF;
 }
+
 
 
 /*=============================================
@@ -103,8 +103,6 @@ SECCION 2:  SUBHEADER
 	border-radius: 20px;
 	width: 100px;
 	height: 100px;
-
-	
 }
 
 
@@ -114,7 +112,7 @@ SECCION 2:  SUBHEADER
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #001219;
+	background-color: #A34C50;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Inter';
@@ -143,13 +141,13 @@ SECCION 2:  SUBHEADER
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #626B68;
+	background-color: #A34C50;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Inter';
 	font-style: normal;
-	color: #000000;
-	font-size: 24px;
+	color: #FFFFFF;
+	font-size: 20px;
 }
 
 /*=============================================
@@ -197,18 +195,17 @@ SECCION 3:  OVERVIEW
 	border: 0.5px solid black;
 }
 
+.menu2:active{
+	background-color: #9e9381;
+}
+
 #stats{
 	border-bottom-left-radius: 3px;
 
 }
 
-#stats:active{
-	background-color: #9e9381;
-}
-
 #notes{
-	/*width: 84.5px;*/
-	/*border-right: 0px;*/
+
 	border-bottom-right-radius: 3px;
 }
 
