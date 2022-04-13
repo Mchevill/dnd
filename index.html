@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>D&D</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/function.js"></script>
+</head>
+<body>
+	<header>
+		<div id="nombre">
+			<span>NAME<br>LVL/Race/Class</span>
+			
+		</div>
+
+		<div id="logo">
+			<span>MENU</span>
+
+		</div>
+
+	</header>
+
+	<div class="cabecera">
+
+		<p class="text" id="ac">AC : 16</p>
+		<p class="text" id="speed">Speed : 30ft</p>
+		<p class="text" id="spelldc">Spell DC : 14</p>
+
+		<ul class="cuadros">
+			<li class="basic" id="inv">INV</li>
+			<li class="basic" id="hp">HP<br>------<br>MAX HP</li>
+			<li class="basic" id="rest">REST</li>
+		</ul>
+		
+	</div>
+
+
+	<div class="overview">
+
+		<nav>
+			<ul class="menu_2" id="menujs">
+				<li class="menu2" id="stats" onclick="statsOnOff()">Stats</li>
+				<li class="menu2" id="savthr">Saving Throws</li>
+				<li class="menu2" id="skills">Skills</li>
+				<li class="menu2" id="notes">Notes</li>
+			</ul>
+
+		</nav>
+
+		
+
+	</div>
+
+	<div class="stats" id="visible">
+
+		<ul class="statstop">
+			<li class="top" id="str">STR<br>16</li>
+			<li class="top" id="dex">DEX<br>16</li>
+			<li class="top" id="con">CON<br>16</li>
+		</ul>
+
+		<ul class="modtop">		
+			<li class="mtop" id="modstr">+3</li>
+			<li class="mtop" id="moddex">+3</li>
+			<li class="mtop" id="modcon">+3</li>
+		</ul>
+
+
+
+		<ul class="statsbot">
+			<li class="bot" id="int">INT<br>16</li>
+			<li class="bot" id="wis">WIS<br>16</li>
+			<li class="bot" id="cha">CHA<br>16</li>
+		</ul>
+
+
+		<ul class="modbot">		
+			<li class="mbot" id="modint">+3</li>
+			<li class="mbot" id="modwis">+3</li>
+			<li class="mbot" id="modcha">+3</li>
+		</ul>
+
+	</div>
+	
+</body>
+</html>
