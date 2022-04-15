@@ -76,11 +76,11 @@ SECCION 2:  SUBHEADER
 	margin-top: 9px;
 }
 #ac{
-	left: 22px;
+	left:38px;
 }
 
 #speed{
-	left: 137px;
+	left: 130px;
 }
 
 #spelldc{
@@ -117,6 +117,7 @@ SECCION 2:  SUBHEADER
 	justify-content: center;
 	font-family: 'Inter';
 	font-style: normal;
+	font-weight: 700,bold;
 	color: #FFFFFF;
 	font-size: 24px;
 }
@@ -126,14 +127,21 @@ SECCION 2:  SUBHEADER
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	background-color: #5A3D3A;
+	background-color: #4A2932;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Inter';
 	font-style: normal;
+	font-weight: 700,bold;
 	color: #FFFFFF;
-	font-size: 21px;
+	font-size: 22px;
+	line-height: 40px;
 }	
+
+hr{
+	width: 80%;
+	border: 1px solid #FFFFFF;
+}
 
 #rest{
 	margin-right: 0px;
@@ -167,12 +175,58 @@ SECCION 3:  OVERVIEW
 
 }
 
+/*=============================================
+SECCION 4.1:  MENU TOP
+=============================================*/
 
-.menu_2{
+
+
+.menu{
 	position: relative;
 	float: left;
 	width: 358px;
 	height: 48px;
+	left: -0.5px;
+	top: 0px;
+	margin-right: 10px;
+	background-color: #E9D8A6;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.menu1{
+	float: left;
+	width: 71px;
+	height: 48px;
+	top: 0px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Inter';
+
+}
+
+.menu li:hover{
+	border-bottom: 2px solid #E94445;
+}
+
+
+
+/*=============================================
+SECCION 4.2:  MENU BOT
+=============================================*/
+
+
+
+.menu_2{
+	position: absolute;
+	float: left;
+	width: 359px;
+	height: 48px;
+	left: -1px;
 	top: 558px;
 	margin-right: 10px;
 	background-color: #CEC2AE;
@@ -183,7 +237,7 @@ SECCION 3:  OVERVIEW
 
 .menu2{
 	float: left;
-	width: 87.5px;
+	width: 89.5px;
 	height: 48px;
 	top: 0px;
 	display: flex;
@@ -192,21 +246,27 @@ SECCION 3:  OVERVIEW
 	align-items: center;
 	justify-content: center;
 	font-family: 'Inter';
-	border: 0.5px solid black;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
 }
 
 .menu2:active{
 	background-color: #9e9381;
 }
 
+.menu2:hover{
+	border-top: 2px solid #9e9381;
+}
+
 #stats{
 	border-bottom-left-radius: 3px;
-
+	border-left:1px solid black ;
 }
 
 #notes{
-
+	
 	border-bottom-right-radius: 3px;
+	/*border-right: 0px;*/
 }
 
 

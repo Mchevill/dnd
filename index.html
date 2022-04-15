@@ -3,8 +3,17 @@
 	<meta charset="utf-8">
 	<title>D&D</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
 	<script type="text/javascript" src="js/function.js"></script>
 	<link href='https://css.gg/menu.css' rel='stylesheet'>
+
+	<script>
+      window.onload = load;
+    </script>
+
+
 </head>
 <body>
 	<header>
@@ -27,7 +36,8 @@
 
 		<ul class="cuadros">
 			<li class="basic" id="inv">Effects</li>
-			<li class="basic" id="hp">HP<br>------<br>MAX HP</li>
+			<!-- <li class="basic" id="hp">HP<br>--------<br>MAX HP</li> -->
+			<li class="basic" id="hp">HP<hr>MAX HP</li>
 			<li class="basic" id="rest"><img src="img/logo/icons8-feather-75.png"></li>
 		</ul>
 		
@@ -37,14 +47,27 @@
 	<div class="overview">
 
 		<nav>
-			<ul class="menu_2" id="menujs">
+			<ul class="menu" id="menutop" >
+				<li class="menu1" id="overview">Overview</li>
+				<li class="menu1" id="spells">Spells</li>
+				<li class="menu1" id="feats">Feats</li>
+				<li class="menu1" id="items">Items</li>
+				<li class="menu1" id="extra">Extra</li>
+			</ul>
+
+		</nav>
+
+
+
+		<div>
+			<ul class="menu_2" id="menujs" >
 				<li class="menu2" id="stats" onclick="statsOnOff()">Stats</li>
 				<li class="menu2" id="savthr">Saving Throws</li>
 				<li class="menu2" id="skills">Skills</li>
 				<li class="menu2" id="notes">Notes</li>
 			</ul>
 
-		</nav>
+		</div>
 
 		
 
